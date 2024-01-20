@@ -1,11 +1,11 @@
 * @import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap);
 :root {
     --primary-color 
-    --secondary-color #ffd60a;
-    --accent1-color #ffc300;
+    --secondary-color; 
+    --accent1-color;
     --accent2-color #001d3d;
     
-    --heading font:  ________:serif
+    --heading font:  ________;serif
     --paragraph-font:______, serif
     
     --nav-background-color #3a5a40
@@ -30,23 +30,23 @@ background-color: var(--accent1-color);
 p {padding: 25px;
 }
 
-nav {background-color: var(--nav-background-color);
+.nav {background-color: var(--nav-background-color);
 font-size: 1.2rem;
 display: flex;
 }
 
-nav a{
+.nav a{
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+.nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a :hover {
+.nav a :hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
